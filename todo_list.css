@@ -1,0 +1,65 @@
+#newtask{
+    padding: 20px;
+    background-color: #d49898;
+}
+#newtask input{
+    width: 70%;
+    outline: none;
+    height: 30px;
+    border: 1px solid rgb(206, 178, 178);
+    padding: 5px 12px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: rgba(35, 12, 43, 0.918);
+}
+#newtask button{
+    width: 10%;
+    height: 42px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+}
+#task{
+   background-color: #fff;
+   margin-top: 50px;
+   padding: 30px 20px;
+   width: 80%;
+   border-radius: 5px;
+}
+.task{
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+#task1{
+    font-size: 20px;
+    color: blue;
+}
+.task1 i{
+    float: right;
+    font-size: 25px;
+    color: green;
+}
+.complete{
+    text-decoration: line-through;
+}
+@media screen and (min-width: 900px) and (max-width:1023px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 40%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -60%;
+        height: 80px;
+        z-index: 100;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 50%;
+    }
+    
+}

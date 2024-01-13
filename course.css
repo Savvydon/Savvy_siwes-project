@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url(images/science-atom-background-vector-gradient-blue-education-remix_53876-114102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic img{
+    margin-top: -8%;
+    margin-left: -95%;
+    height: 80px;
+    z-index: 100;
+}
+
+.div1{
+    color: #fff;
+    margin: 5% 0 5% 50%;
+}
+.div1 ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.div1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.div1 ul li:hover{
+    border-bottom: 5px solid #6b3497a4;
+}
+ .li1{
+    background-color: #540bcaa4;
+    height: 30px;
+}
+.div2{
+    margin: 10% 25%;
+    width: 50%;
+    background-color: rgb(238, 207, 212);
+    padding: 10px;
+    border-radius: 10px;
+}
+#div1{
+    margin: 0 0 0 50px;
+    padding: 10px;
+    border-bottom: 5px solid rgba(250, 128, 114, 0.151);
+    width: 80%;
+}
+#a{
+    padding-left: 350px;
+}
+#div1 a{
+    text-decoration: none;
+    padding: 0 0 0 20px;
+}
+#course_list{
+    margin: 10px;
+    list-style: none;
+    
+}
+#course_list li{
+    margin: 30px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px 0 30px 20px;
+}
+li .spn{
+    display:block;
+    margin: -5% 0 0 80%;
+    height: 50px;
+    width: 90px;
+    background-color: green;
+    line-height: 50px;
+    padding: 0 0 0 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+@media screen and (min-width: 910px) and (max-width:1023px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 40%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -60%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+    #a{
+        padding-left: 180px;
+    }
+    #div1 a{
+        text-decoration: none;
+        padding: 0 0 0 20px;
+    }
+    #course_list{
+        margin: 10px;
+        list-style: none;
+        
+    }
+    #course_list li{
+        margin: 30px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px 0 30px 20px;
+    }
+    li .spn{
+        display:block;
+        margin: -5% 0 0 70%;
+        height: 50px;
+        width: 90px;
+        background-color: green;
+        line-height: 50px;
+        padding: 0 0 0 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width:1083px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 37%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -50%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+    
+     #a{
+            padding-left: 200px;
+        }
+    #div1 a{
+        text-decoration: none;
+        padding: 0 0 0 20px;
+    }
+    #course_list{
+        margin: 10px;
+        list-style: none;
+        
+    }
+    #course_list li{
+        margin: 30px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px 0 30px 20px;
+    }
+    li .spn{
+        display:block;
+        margin: -5% 0 0 70%;
+        height: 50px;
+        width: 90px;
+        background-color: green;
+        line-height: 50px;
+        padding: 0 0 0 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+}
+@media screen and (min-width: 1084px) and (max-width:1210px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 42%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -65%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+    #a{
+        padding-left: 250px;
+    }
+    #div1 a{
+        text-decoration: none;
+        padding: 0 0 0 20px;
+    }
+    #course_list{
+        margin: 10px;
+        list-style: none;
+        
+    }
+    #course_list li{
+        margin: 30px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px 0 30px 20px;
+    }
+    li .spn{
+        display:block;
+        margin: -5% 0 0 70%;
+        height: 50px;
+        width: 90px;
+        background-color: green;
+        line-height: 50px;
+        padding: 0 0 0 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+}
+@media screen and (min-width: 1211px) and (max-width:1290px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 40%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -90%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+    #a{
+        padding-left: 300px;
+    }
+    #div1 a{
+        text-decoration: none;
+        padding: 0 0 0 20px;
+    }
+    #course_list{
+        margin: 10px;
+        list-style: none;
+        
+    }
+    #course_list li{
+        margin: 30px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px 0 30px 20px;
+    }
+    li .spn{
+        display:block;
+        margin: -5% 0 0 70%;
+        height: 50px;
+        width: 90px;
+        background-color: green;
+        line-height: 50px;
+        padding: 0 0 0 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+}
+@media screen and (min-width: 1291px) and (max-width:1330px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 45;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -90%;
+        height: 80px;
+        z-index: 100;
+    }
+    #a{
+        padding-left: 320px;
+    }
+    #div1 a{
+        text-decoration: none;
+        padding: 0 0 0 20px;
+    }
+    #course_list{
+        margin: 10px;
+        list-style: none;
+        
+    }
+    #course_list li{
+        margin: 30px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px 0 30px 20px;
+    }
+    li .spn{
+        display:block;
+        margin: -5% 0 0 70%;
+        height: 50px;
+        width: 90px;
+        background-color: green;
+        line-height: 50px;
+        padding: 0 0 0 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+

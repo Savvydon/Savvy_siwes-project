@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url(images/science-atom-background-vector-gradient-blue-education-remix_53876-114102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic img{
+    margin-top: -8%;
+    margin-left: -95%;
+    height: 80px;
+    z-index: 100;
+}
+.div1{
+    color: #fff;
+    margin: 5% 0 5% 50%;
+}
+.div1 ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    text-transform: capitalize;
+    height: 30px;
+}
+.div1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.div1 ul li:hover{
+    border-bottom: 5px solid #6b3497a4;
+}
+ .li1{
+    background-color: #540bcaa4;
+    height: 30px;
+}
+.div2{
+    margin: 5% 5% 0;
+    color: #fff;
+}
+.div2 h1{
+    width: 50%;
+    margin: 5% 0 3%;
+    font-size: 60px;
+}
+.div2 p{
+    width: 50%;
+    font-size: 20px;
+}
+form{
+    margin: 3% 10% 5% 5%;
+    position: relative;
+    height: 40px;
+}
+form input{
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #000;
+    font-size: 15px;
+    height: 100%;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+}
+form input::placeholder{
+    color: #000;
+}
+form i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 17px;
+    right: 70%;
+}
+#div2{
+    background-color: #fff;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    justify-content: space-between;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+#div2 i{
+    font-size: 35px;
+    padding: 10px 0;
+    color: rgba(107, 99, 22, 0.849);
+}
+#div2 h2{
+    padding: 10px 0;
+}
+#div2 p{
+    font-size: 12px;
+}
+@media screen and (min-width: 900px) and (max-width:1023px) {
+    #pic img{
+        margin-top: -8%;
+        margin-left: -60%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 40%;
+    }
+    #div2{
+        background-color: #fff;
+        width: 85%;
+        display: flex;
+        position: absolute;
+        top: 80%;
+        left: 5%;
+        justify-content: space-between;
+        padding: 20px 20px;
+        cursor: pointer;
+    }
+    @media screen and (min-width: 1024px) {
+        #pic img{
+            margin-top: -8%;
+            margin-left: -70%;
+            height: 80px;
+            z-index: 100;
+        }
+        .div1{
+            color: #fff;
+            margin: 5% 0 5% 50%;
+        }
+        
+    }
+    
+    
+}

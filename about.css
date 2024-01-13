@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url(images/science-atom-background-vector-gradient-blue-education-remix_53876-114102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic img{
+    margin-top: -8%;
+    margin-left: -95%;
+    height: 80px;
+    z-index: 100;
+}
+
+.div1{
+    color: #fff;
+    margin: 5% 0 5% 50%;
+}
+.div1 ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.div1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.div1 ul li:hover{
+    border-bottom: 5px solid #6b3497a4;
+}
+ .li1{
+    background-color: #540bcaa4;
+    height: 30px;
+}
+
+.div2{
+    margin: 5% 10% 0;
+    color: #fff;
+    display: flex;
+}
+.div2 img{
+    width: 20%;
+    clip-path: circle();
+    margin: 1% 0 3%;
+    font-size: 60px;
+}
+.div2 p{
+    width: 50%;
+    margin: 5% 5% 3%;
+    font-size: 22px;
+}
+@media screen and (min-width: 850px) and (max-width:1023px){
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 40%;
+    }
+    #pic img{
+        margin-top: -8%;
+        margin-left: -60%;
+        height: 80px;
+        z-index: 100;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .div1{
+        color: #fff;
+        margin: 5% 0 5% 50%;
+    }
+    
+}

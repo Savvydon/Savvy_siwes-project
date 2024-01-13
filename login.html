@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="login.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form action="index.html" onsubmit="return onSubmit()">
+                <h2>sign in</h2>
+                    <div class="div1">
+                        <input type="text" placeholder="Username" name="username" id="username">
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    <div class="div1">
+                        <input type="password" placeholder="Password" name="password" id="password">
+                        <i class="bx bxs-lock-alt"></i>
+                    </div>
+                    <div class="remember-me">
+                        <label><input type="checkbox">remember me</label>
+                        <a href="">forgotten password?</a>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <a href="form.html">create an account?</a>   
+            </form>
+        </div>
+        <script>
+            function onSubmit(){
+                let user = document.getElementById('username');
+                let ps = document.getElementById('password');
+           
+                if(user.value === ""){
+                    alert("enter username!");
+                    return false;
+                }
+                else if (ps.value === ""){
+                    alert("enter password!");
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        </script>
+    </body>
+</html>
